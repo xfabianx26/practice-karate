@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.fabian.photos.PhotoRunner" time="6.825" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.fabian.photos.PhotoRunner" time="9.312" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\fabian\AppData\Local\Temp\surefire6302859186139452408\surefirebooter-20241123092319831_3.jar C:\Users\fabian\AppData\Local\Temp\surefire6302859186139452408 2024-11-23T09-23-19_602-jvmRun1 surefire-20241123092319831_1tmp surefire_0-20241123092319831_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\fabian\AppData\Local\Temp\surefire16119376175844477772\surefirebooter-20241123094647712_3.jar C:\Users\fabian\AppData\Local\Temp\surefire16119376175844477772 2024-11-23T09-46-47_534-jvmRun1 surefire-20241123094647712_1tmp surefire_0-20241123094647712_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="PhotoRunner"/>
     <property name="surefire.test.class.path" value="C:\Users\fabian\Desktop\Analista de pruebas\Karate\myproject-karate\target\test-classes;C:\Users\fabian\Desktop\Analista de pruebas\Karate\myproject-karate\target\classes;C:\Users\fabian\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\fabian\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\fabian\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\fabian\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\fabian\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\fabian\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\fabian\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\fabian\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\fabian\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\fabian\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\fabian\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\fabian\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\fabian\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\fabian\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\fabian\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\fabian\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\fabian\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\fabian\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\fabian\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\fabian\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\fabian\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\fabian\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\fabian\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\fabian\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\fabian\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\fabian\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\fabian\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\fabian\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\fabian\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\fabian\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\fabian\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\fabian\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\fabian\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\fabian\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\fabian\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\fabian\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\fabian\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\fabian\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\fabian\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\fabian\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\fabian\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\fabian\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\fabian\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\fabian\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\fabian\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\fabian\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\fabian\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\fabian\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\fabian\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\fabian\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\fabian\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\fabian\AppData\Local\Temp\surefire6302859186139452408\surefirebooter-20241123092319831_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\fabian\AppData\Local\Temp\surefire16119376175844477772\surefirebooter-20241123094647712_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
@@ -57,10 +57,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="[1:6] Search a photo" classname="com/fabian/photos/search_photo" time="3.778">
-    <system-out><![CDATA[09:23:21.018 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-09:23:21.942 [main] INFO  com.intuit.karate - karate.env system property was: null 
-09:23:22.249 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[1:6] Search a photo" classname="com/fabian/photos/search_photo" time="3.134">
+    <system-out><![CDATA[09:46:49.035 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:46:50.084 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:46:50.428 [main] DEBUG com.intuit.karate - request:
 1 > POST https://jsonplaceholder.typicode.com/photos
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 185
@@ -70,19 +70,19 @@
 1 > Accept-Encoding: gzip,deflate
 {"albumId":1,"title":"accusamus beatae ad facilis cum similique qui sunt","url":"https:\/\/via.placeholder.com\/600\/92c952","thumbnailUrl":"https:\/\/via.placeholder.com\/150\/92c952"}
 
-09:23:24.823 [main] DEBUG com.intuit.karate - response time in milliseconds: 2571
+09:46:52.192 [main] DEBUG com.intuit.karate - response time in milliseconds: 1761
 1 < 201
-1 < Date: Sat, 23 Nov 2024 14:23:25 GMT
+1 < Date: Sat, 23 Nov 2024 14:46:52 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Content-Length: 208
 1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732371805&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=r5oPjeYv10uJGem5epfwIGITocv9S22abg6Q3efxJrI%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732371805&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=r5oPjeYv10uJGem5epfwIGITocv9S22abg6Q3efxJrI%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732373212&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cdweXXyavjzC9eKjaGy025G66KKXiRQ%2Bl6W5fEhjPiA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732373212&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cdweXXyavjzC9eKjaGy025G66KKXiRQ%2Bl6W5fEhjPiA%3D
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 1 < X-Powered-By: Express
 1 < X-Ratelimit-Limit: 1000
 1 < X-Ratelimit-Remaining: 999
-1 < X-Ratelimit-Reset: 1732371840
+1 < X-Ratelimit-Reset: 1732373220
 1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 1 < Access-Control-Allow-Credentials: true
 1 < Cache-Control: no-cache
@@ -95,9 +95,9 @@
 1 < Via: 1.1 vegur
 1 < cf-cache-status: DYNAMIC
 1 < Server: cloudflare
-1 < CF-RAY: 8e71d1275efc74a8-MIA
+1 < CF-RAY: 8e71f383b941a4ee-MIA
 1 < alt-svc: h3=":443"; ma=86400
-1 < server-timing: cfL4;desc="?proto=TCP&rtt=72041&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3116&recv_bytes=1045&delivery_rate=61916&cwnd=49&unsent_bytes=0&cid=ef360da5fac1c910&ts=222&x=0"
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=70347&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3117&recv_bytes=1045&delivery_rate=52818&cwnd=73&unsent_bytes=0&cid=d5d0860f4ae7bbcb&ts=237&x=0"
 {
   "albumId": 1,
   "title": "accusamus beatae ad facilis cum similique qui sunt",
@@ -108,9 +108,9 @@
 
 ]]></system-out>
   </testcase>
-  <testcase name="[2:26] Get an existing photo" classname="com/fabian/photos/search_photo" time="1.358">
-    <system-out><![CDATA[09:23:24.835 [main] INFO  com.intuit.karate - karate.env system property was: null 
-09:23:24.837 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[2:26] Get an existing photo" classname="com/fabian/photos/search_photo" time="4.437">
+    <system-out><![CDATA[09:46:52.203 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:46:52.205 [main] DEBUG com.intuit.karate - request:
 1 > GET https://jsonplaceholder.typicode.com/photos/1
 1 > Host: jsonplaceholder.typicode.com
 1 > Connection: Keep-Alive
@@ -118,9 +118,9 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-09:23:26.172 [main] DEBUG com.intuit.karate - response time in milliseconds: 1334
+09:46:56.621 [main] DEBUG com.intuit.karate - response time in milliseconds: 4415
 1 < 200
-1 < Date: Sat, 23 Nov 2024 14:23:26 GMT
+1 < Date: Sat, 23 Nov 2024 14:46:57 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -139,12 +139,12 @@
 1 < X-Content-Type-Options: nosniff
 1 < Etag: W/"cd-fwYyS5EukQMGcHFgOIIc7Xfm1fw"
 1 < Via: 1.1 vegur
-1 < Age: 855
+1 < Age: 2265
 1 < cf-cache-status: HIT
 1 < Server: cloudflare
-1 < CF-RAY: 8e71d1306a74ed33-MIA
+1 < CF-RAY: 8e71f3a01b6d7bfa-MIA
 1 < alt-svc: h3=":443"; ma=86400
-1 < server-timing: cfL4;desc="?proto=TCP&rtt=76122&sent=10&recv=10&lost=0&retrans=3&sent_bytes=876&recv_bytes=1240&delivery_rate=2476&cwnd=132&unsent_bytes=0&cid=b9f10376b6363098&ts=1193&x=0"
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=42105&sent=3&recv=6&lost=0&retrans=1&sent_bytes=219&recv_bytes=1240&delivery_rate=34675&cwnd=225&unsent_bytes=0&cid=6909a1a88c9c2882&ts=59&x=0"
 {
   "albumId": 1,
   "id": 1,
@@ -155,9 +155,9 @@
 
 ]]></system-out>
   </testcase>
-  <testcase name="[3:35] Validate response structure" classname="com/fabian/photos/search_photo" time="0.983">
-    <system-out><![CDATA[09:23:26.195 [main] INFO  com.intuit.karate - karate.env system property was: null 
-09:23:26.199 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[3:35] Validate response structure" classname="com/fabian/photos/search_photo" time="0.946">
+    <system-out><![CDATA[09:46:56.640 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:46:56.643 [main] DEBUG com.intuit.karate - request:
 1 > POST https://jsonplaceholder.typicode.com/photos
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 185
@@ -167,19 +167,19 @@
 1 > Accept-Encoding: gzip,deflate
 {"albumId":1,"title":"accusamus beatae ad facilis cum similique qui sunt","url":"https:\/\/via.placeholder.com\/600\/92c952","thumbnailUrl":"https:\/\/via.placeholder.com\/150\/92c952"}
 
-09:23:26.449 [main] DEBUG com.intuit.karate - response time in milliseconds: 250
+09:46:56.923 [main] DEBUG com.intuit.karate - response time in milliseconds: 280
 1 < 201
-1 < Date: Sat, 23 Nov 2024 14:23:27 GMT
+1 < Date: Sat, 23 Nov 2024 14:46:57 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Content-Length: 208
 1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732371807&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=kA%2BZWVzAOxouYU1qM2ok21Eon71AyvfmqrydZvBxllo%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732371807&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=kA%2BZWVzAOxouYU1qM2ok21Eon71AyvfmqrydZvBxllo%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732373217&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=mHvL9gqfiHVyr36%2F1qDxjHzV23eLl0c2C%2BrNph7536A%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732373217&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=mHvL9gqfiHVyr36%2F1qDxjHzV23eLl0c2C%2BrNph7536A%3D
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 1 < X-Powered-By: Express
 1 < X-Ratelimit-Limit: 1000
 1 < X-Ratelimit-Remaining: 998
-1 < X-Ratelimit-Reset: 1732371840
+1 < X-Ratelimit-Reset: 1732373220
 1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 1 < Access-Control-Allow-Credentials: true
 1 < Cache-Control: no-cache
@@ -192,9 +192,9 @@
 1 < Via: 1.1 vegur
 1 < cf-cache-status: DYNAMIC
 1 < Server: cloudflare
-1 < CF-RAY: 8e71d131af876dd1-MIA
+1 < CF-RAY: 8e71f3a17d6b74b0-MIA
 1 < alt-svc: h3=":443"; ma=86400
-1 < server-timing: cfL4;desc="?proto=TCP&rtt=48761&sent=3&recv=6&lost=0&retrans=0&sent_bytes=219&recv_bytes=1492&delivery_rate=28172&cwnd=46&unsent_bytes=0&cid=2892f342a70033c1&ts=152&x=0"
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=50702&min_rtt=49597&rtt_var=20809&sent=3&recv=6&lost=0&retrans=0&sent_bytes=219&recv_bytes=1492&delivery_rate=24983&cwnd=66&unsent_bytes=0&cid=d4837d5b4ad96104&ts=159&x=0"
 {
   "albumId": 1,
   "title": "accusamus beatae ad facilis cum similique qui sunt",
@@ -205,13 +205,13 @@
 
 ---------------------------------------------------------
 feature: classpath:com/fabian/photos/search_photo.feature
-scenarios:  3 | passed:  3 | failed:  0 | time: 4,4590
+scenarios:  3 | passed:  3 | failed:  0 | time: 6,7880
 ---------------------------------------------------------
 
 Karate version: 1.5.0
 ======================================================
-elapsed:   6,10 | threads:    1 | thread time: 4,46 
-features:     1 | skipped:    0 | efficiency: 0,73
+elapsed:   8,51 | threads:    1 | thread time: 6,79 
+features:     1 | skipped:    0 | efficiency: 0,80
 scenarios:    3 | passed:     3 | failed: 0
 ======================================================
 

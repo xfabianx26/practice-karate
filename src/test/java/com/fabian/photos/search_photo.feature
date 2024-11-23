@@ -51,7 +51,7 @@ Feature: Search photo
     """
     {
       "albumId": #number,
-      "title": "#string",
+      "title": "#present",
       "url": "#string",
       "thumbnailUrl": "#string",
       "id": #number

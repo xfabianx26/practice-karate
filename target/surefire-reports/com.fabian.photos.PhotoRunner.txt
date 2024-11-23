@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.fabian.photos.PhotoRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.825 s - in com.fabian.photos.PhotoRunner
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.312 s - in com.fabian.photos.PhotoRunner

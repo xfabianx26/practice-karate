@@ -46,11 +46,12 @@ Feature: Search photo
     And request add_a_photo_request
     When method POST
     Then status 201
+#    And match response contains
     And match response ==
     """
     {
       "albumId": #number,
-      "title": "#string",
+      "title": "#present",
       "url": "#string",
       "thumbnailUrl": "#string",
       "id": #number

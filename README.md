@@ -3,7 +3,7 @@
 ## Ejecución de Clases de Karate
 
 Para ejecutar una clase específica que contiene pruebas en Karate, utiliza el siguiente comando:
-
+#present validamos que el dato venga 
 ```bash
 mvn clean test -Dtest=PhotoRunner
 
